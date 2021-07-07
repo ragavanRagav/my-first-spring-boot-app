@@ -13,7 +13,7 @@ public class FirstAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FirstAppApplication.class, args);
 		
-		System.out.println("Hello world");
+		System.out.println("Server is listening on http://localhost:8081");
 	}
 	
 	@GetMapping("/")
